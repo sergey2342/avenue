@@ -1,0 +1,96 @@
+.menu {
+    padding-top: 40px;
+    background-color: #f8f8f8;
+    position: relative;
+    height: 920px;
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 10;
+        position: relative;
+    }
+    &-item:first-child {
+        font-weight: 400;
+        letter-spacing: 1.2px;
+        color: #222222;
+        font-size: 24px;
+        text-transform: uppercase;
+        width: 50%;
+        span {
+            font-weight: 700;
+        }
+    }
+    &-item {
+        a {
+            text-decoration: none;
+            color: #222222;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 20px;
+            text-transform: uppercase;
+            transition: 0.3s all;
+            &:hover {
+                color: #00c8c8;
+                transition: 0.3s all;
+            }
+        }
+    }
+    .active {
+        a {
+            color: #00c8c8;
+        }
+    }
+    &-row {
+        position: relative;
+        display: flex;
+        height: 850px;
+    }
+    &-col {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        img {
+            position: absolute;
+            top: -69px;
+        }
+    }
+    &-button {
+        color: #454647;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 3.2px;
+        width: 342px;
+        height: 59px;
+        border: 2px solid #737373;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.3s all;
+        position: relative;
+        top: 670px;
+        &:hover {
+            transition: 0.3s all;
+            background-color: #00c8c8;
+            border-color: #00c8c8;
+            color: #fff;
+        }
+    }
+    &-name {
+        text-align: center;
+        width: 100%;
+        color: #575153;
+        font-size: 450px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 22.5px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+    }
+}
