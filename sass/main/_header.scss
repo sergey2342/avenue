@@ -33,6 +33,11 @@
         a {
             text-decoration: none;
             color: #999999;
+            transition: 0.3s all;
+            &:hover {
+                transition: 0.3s all;
+                color: #00c8c8;
+            }
         }
     }
     &-empty {

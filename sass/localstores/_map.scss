@@ -1,0 +1,43 @@
+.map {
+    &-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &-col:first-child {
+        width: 60%;
+        filter: grayscale(100%);
+    }
+    &-col:last-child {
+        width: 40%;
+        padding: 40px 75px 0 40px;
+        background-color: #f8f8f8;
+    }
+    &-item {
+        color: #8e8c8c;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 32px;
+        i {
+            margin-right: 10px;
+        }
+    }
+    &-social {
+        margin-top: 60px;
+        display: flex;
+        &-item {
+            width: 30px;
+            height: 30px;
+            background-color: #727272;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 15px;
+            cursor: pointer;
+            i {
+                color: #ffffff;
+                font-size: 18px;
+            }
+        }
+    }
+}

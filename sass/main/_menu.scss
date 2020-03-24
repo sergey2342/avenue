@@ -3,6 +3,10 @@
     background-color: #f8f8f8;
     position: relative;
     height: 920px;
+    &-second {
+        height: auto;
+        padding-bottom: 50px;
+    }
     nav {
         display: flex;
         justify-content: space-around;
@@ -11,15 +15,17 @@
         position: relative;
     }
     &-item:first-child {
-        font-weight: 400;
-        letter-spacing: 1.2px;
-        color: #222222;
-        font-size: 24px;
-        text-transform: uppercase;
-        width: 50%;
-        span {
-            font-weight: 700;
-        }
+       a {
+            font-weight: 400;
+            letter-spacing: 1.2px;
+            color: #222222;
+            font-size: 24px;
+            text-transform: uppercase;
+            width: 50%;
+            span {
+                font-weight: 700;
+            }
+       }
     }
     &-item {
         a {
@@ -53,7 +59,7 @@
         justify-content: center;
         img {
             position: absolute;
-            top: -69px;
+            top: -62px;
         }
     }
     &-button {
