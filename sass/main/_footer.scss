@@ -4,10 +4,7 @@
     &-row {
         padding: 65px 0 65px 0;
         display: flex;
-        justify-content: center;
-    }
-    &-col {
-        margin: 0 50px 0 50px;
+        justify-content: space-between;
     }
     &-title {
         color: #575153;
@@ -36,11 +33,10 @@
     }
     &-row-2 {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         padding-bottom: 55px;
     }
     &-col-2 {
-        margin: 0 15px 0 15px;
         width: 570px;
         height: 200px;
         background-color: #333333;

@@ -3,12 +3,11 @@
         margin-top: 62px;
         margin-bottom: 65px;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         flex-wrap: wrap;
     }
     &-col {
         width: 370px;
-        margin: 0 15px 0 15px;
     }
     &-city {
         color: #575153;
