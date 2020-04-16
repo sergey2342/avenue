@@ -103,9 +103,11 @@
         position: absolute;
         padding: 20px 40px 20px 40px;
         background-color: #ffffff;
-        width: 420px;
+        // width: 420px;
+        width: 100%;
         &__big {
-            width: 865px;
+            // width: 865px;
+            width: 100%;
             top: 703px;
 
         }

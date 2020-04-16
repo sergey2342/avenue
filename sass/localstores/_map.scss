@@ -6,6 +6,10 @@
     &-col:first-child {
         width: 60%;
         filter: grayscale(100%);
+        .map-main:nth-child(2),
+        .map-main:nth-child(3) {
+            display: none;
+        }
     }
     &-col:last-child {
         width: 40%;
